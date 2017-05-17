@@ -1,0 +1,127 @@
+exports[`App renders correctly 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "boxSizing": "border-box",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "960px",
+      "paddingLeft": "15px",
+      "paddingRight": "15px",
+      "position": "relative",
+      "width": "auto",
+    }
+  }>
+  <div>
+    <div
+      style={
+        Object {
+          "marginLeft": "-15px",
+          "marginRight": "-15px",
+        }
+      }>
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "float": "left",
+            "marginLeft": "0%",
+            "minHeight": "1px",
+            "paddingLeft": "15px",
+            "paddingRight": "15px",
+            "width": "100%",
+          }
+        }>
+        <div
+          className="search-bar"
+          style={
+            Object {
+              "marginLeft": "-15px",
+              "marginRight": "-15px",
+            }
+          }>
+          <form
+            onSubmit={[Function]}>
+            <div
+              className="search-col"
+              style={
+                Object {
+                  "boxSizing": "border-box",
+                  "float": "left",
+                  "marginLeft": "33.333333333333336%",
+                  "minHeight": "1px",
+                  "paddingLeft": "15px",
+                  "paddingRight": "15px",
+                  "width": "50%",
+                }
+              }>
+              <input
+                onChange={[Function]}
+                placeholder="Search by title"
+                value="" />
+            </div>
+            <div
+              className="search-col"
+              style={
+                Object {
+                  "boxSizing": "border-box",
+                  "float": "left",
+                  "marginLeft": "0%",
+                  "minHeight": "1px",
+                  "paddingLeft": "15px",
+                  "paddingRight": "15px",
+                  "width": "16.666666666666668%",
+                }
+              }>
+              <button
+                type="submit">
+                Search
+              </button>
+            </div>
+          </form>
+          <div
+            style={
+              Object {
+                "clear": "both",
+                "display": "table",
+              }
+            }>
+            <span
+              style={
+                Object {
+                  "display": "none",
+                }
+              }>
+               
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "clear": "both",
+            "display": "table",
+          }
+        }>
+        <span
+          style={
+            Object {
+              "display": "none",
+            }
+          }>
+           
+        </span>
+      </div>
+    </div>
+  </div>
+  <span
+    style={
+      Object {
+        "clear": "both",
+        "display": "table",
+      }
+    } />
+</div>
+`;

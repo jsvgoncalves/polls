@@ -1,0 +1,818 @@
+exports[`Polls renders correctly 1`] = `
+<Polls>
+  <div>
+    <Row
+      style={Object {}}>
+      <div
+        style={
+          Object {
+            "marginLeft": "-15px",
+            "marginRight": "-15px",
+          }
+        }>
+        <Col
+          lg={12}
+          md={12}
+          offset={Object {}}
+          sm={12}
+          style={Object {}}
+          xl={12}
+          xs={12}>
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "float": "left",
+                "marginLeft": "0%",
+                "minHeight": "1px",
+                "paddingLeft": "15px",
+                "paddingRight": "15px",
+                "width": "100%",
+              }
+            }>
+            <Search
+              update={[Function]}>
+              <Row
+                className="search-bar"
+                style={Object {}}>
+                <div
+                  className="search-bar"
+                  style={
+                    Object {
+                      "marginLeft": "-15px",
+                      "marginRight": "-15px",
+                    }
+                  }>
+                  <form
+                    onSubmit={[Function]}>
+                    <Col
+                      className="search-col"
+                      lg={12}
+                      md={6}
+                      offset={
+                        Object {
+                          "md": 4,
+                        }
+                      }
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="search-col"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "33.333333333333336%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "50%",
+                          }
+                        }>
+                        <input
+                          onChange={[Function]}
+                          placeholder="Search by title"
+                          value="" />
+                      </div>
+                    </Col>
+                    <Col
+                      className="search-col"
+                      lg={12}
+                      md={2}
+                      offset={Object {}}
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="search-col"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "0%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "16.666666666666668%",
+                          }
+                        }>
+                        <button
+                          type="submit">
+                          Search
+                        </button>
+                      </div>
+                    </Col>
+                  </form>
+                  <ClearFix
+                    lg={true}
+                    md={true}
+                    sm={true}
+                    xl={true}
+                    xs={true}>
+                    <Visible
+                      lg={true}
+                      md={true}
+                      sm={true}
+                      xl={true}
+                      xs={true}>
+                      <RenderAny>
+                        <div
+                          style={
+                            Object {
+                              "clear": "both",
+                              "display": "table",
+                            }
+                          }>
+                          <span
+                            style={
+                              Object {
+                                "display": "none",
+                              }
+                            }>
+                             
+                          </span>
+                        </div>
+                      </RenderAny>
+                    </Visible>
+                  </ClearFix>
+                </div>
+              </Row>
+            </Search>
+          </div>
+        </Col>
+        <ClearFix
+          lg={true}
+          md={true}
+          sm={true}
+          xl={true}
+          xs={true}>
+          <Visible
+            lg={true}
+            md={true}
+            sm={true}
+            xl={true}
+            xs={true}>
+            <RenderAny>
+              <div
+                style={
+                  Object {
+                    "clear": "both",
+                    "display": "table",
+                  }
+                }>
+                <span
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }>
+                   
+                </span>
+              </div>
+            </RenderAny>
+          </Visible>
+        </ClearFix>
+      </div>
+    </Row>
+    <Row
+      className="poll"
+      style={Object {}}>
+      <div
+        className="poll"
+        style={
+          Object {
+            "marginLeft": "-15px",
+            "marginRight": "-15px",
+          }
+        }>
+        <Col
+          lg={12}
+          md={12}
+          offset={Object {}}
+          sm={12}
+          style={Object {}}
+          xl={12}
+          xs={12}>
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "float": "left",
+                "marginLeft": "0%",
+                "minHeight": "1px",
+                "paddingLeft": "15px",
+                "paddingRight": "15px",
+                "width": "100%",
+              }
+            }>
+            <Poll
+              poll={
+                Object {
+                  "_created": "date",
+                  "_id": "poll1",
+                  "initiator": Object {
+                    "name": "John Doe",
+                  },
+                  "title": "Poll 1",
+                }
+              }>
+              <div>
+                <Row
+                  style={Object {}}>
+                  <div
+                    style={
+                      Object {
+                        "marginLeft": "-15px",
+                        "marginRight": "-15px",
+                      }
+                    }>
+                    <Col
+                      className="poll-field"
+                      lg={12}
+                      md={12}
+                      offset={Object {}}
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="poll-field"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "0%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "100%",
+                          }
+                        }>
+                        <strong>
+                          Poll 1
+                        </strong>
+                      </div>
+                    </Col>
+                    <ClearFix
+                      lg={true}
+                      md={true}
+                      sm={true}
+                      xl={true}
+                      xs={true}>
+                      <Visible
+                        lg={true}
+                        md={true}
+                        sm={true}
+                        xl={true}
+                        xs={true}>
+                        <RenderAny>
+                          <div
+                            style={
+                              Object {
+                                "clear": "both",
+                                "display": "table",
+                              }
+                            }>
+                            <span
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }>
+                               
+                            </span>
+                          </div>
+                        </RenderAny>
+                      </Visible>
+                    </ClearFix>
+                  </div>
+                </Row>
+                <Row
+                  style={Object {}}>
+                  <div
+                    style={
+                      Object {
+                        "marginLeft": "-15px",
+                        "marginRight": "-15px",
+                      }
+                    }>
+                    <Col
+                      className="poll-field"
+                      lg={12}
+                      md={6}
+                      offset={Object {}}
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="poll-field"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "0%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "50%",
+                          }
+                        }>
+                        John Doe
+                      </div>
+                    </Col>
+                    <Col
+                      className="poll-field"
+                      lg={12}
+                      md={5}
+                      offset={
+                        Object {
+                          "md": 1,
+                        }
+                      }
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="poll-field"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "8.333333333333334%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "41.66666666666667%",
+                          }
+                        }>
+                        date
+                      </div>
+                    </Col>
+                    <ClearFix
+                      lg={true}
+                      md={true}
+                      sm={true}
+                      xl={true}
+                      xs={true}>
+                      <Visible
+                        lg={true}
+                        md={true}
+                        sm={true}
+                        xl={true}
+                        xs={true}>
+                        <RenderAny>
+                          <div
+                            style={
+                              Object {
+                                "clear": "both",
+                                "display": "table",
+                              }
+                            }>
+                            <span
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }>
+                               
+                            </span>
+                          </div>
+                        </RenderAny>
+                      </Visible>
+                    </ClearFix>
+                  </div>
+                </Row>
+                <Row
+                  style={Object {}}>
+                  <div
+                    style={
+                      Object {
+                        "marginLeft": "-15px",
+                        "marginRight": "-15px",
+                      }
+                    }>
+                    <Col
+                      className="poll-field"
+                      lg={12}
+                      md={12}
+                      offset={Object {}}
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="poll-field"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "0%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "100%",
+                          }
+                        }>
+                        <em>
+                          No description provided
+                        </em>
+                      </div>
+                    </Col>
+                    <ClearFix
+                      lg={true}
+                      md={true}
+                      sm={true}
+                      xl={true}
+                      xs={true}>
+                      <Visible
+                        lg={true}
+                        md={true}
+                        sm={true}
+                        xl={true}
+                        xs={true}>
+                        <RenderAny>
+                          <div
+                            style={
+                              Object {
+                                "clear": "both",
+                                "display": "table",
+                              }
+                            }>
+                            <span
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }>
+                               
+                            </span>
+                          </div>
+                        </RenderAny>
+                      </Visible>
+                    </ClearFix>
+                  </div>
+                </Row>
+              </div>
+            </Poll>
+          </div>
+        </Col>
+        <ClearFix
+          lg={true}
+          md={true}
+          sm={true}
+          xl={true}
+          xs={true}>
+          <Visible
+            lg={true}
+            md={true}
+            sm={true}
+            xl={true}
+            xs={true}>
+            <RenderAny>
+              <div
+                style={
+                  Object {
+                    "clear": "both",
+                    "display": "table",
+                  }
+                }>
+                <span
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }>
+                   
+                </span>
+              </div>
+            </RenderAny>
+          </Visible>
+        </ClearFix>
+      </div>
+    </Row>
+    <Row
+      className="poll"
+      style={Object {}}>
+      <div
+        className="poll"
+        style={
+          Object {
+            "marginLeft": "-15px",
+            "marginRight": "-15px",
+          }
+        }>
+        <Col
+          lg={12}
+          md={12}
+          offset={Object {}}
+          sm={12}
+          style={Object {}}
+          xl={12}
+          xs={12}>
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "float": "left",
+                "marginLeft": "0%",
+                "minHeight": "1px",
+                "paddingLeft": "15px",
+                "paddingRight": "15px",
+                "width": "100%",
+              }
+            }>
+            <Poll
+              poll={
+                Object {
+                  "_created": "date",
+                  "_id": "poll2",
+                  "initiator": Object {
+                    "name": "John Doe",
+                  },
+                  "title": "Poll 2",
+                }
+              }>
+              <div>
+                <Row
+                  style={Object {}}>
+                  <div
+                    style={
+                      Object {
+                        "marginLeft": "-15px",
+                        "marginRight": "-15px",
+                      }
+                    }>
+                    <Col
+                      className="poll-field"
+                      lg={12}
+                      md={12}
+                      offset={Object {}}
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="poll-field"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "0%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "100%",
+                          }
+                        }>
+                        <strong>
+                          Poll 2
+                        </strong>
+                      </div>
+                    </Col>
+                    <ClearFix
+                      lg={true}
+                      md={true}
+                      sm={true}
+                      xl={true}
+                      xs={true}>
+                      <Visible
+                        lg={true}
+                        md={true}
+                        sm={true}
+                        xl={true}
+                        xs={true}>
+                        <RenderAny>
+                          <div
+                            style={
+                              Object {
+                                "clear": "both",
+                                "display": "table",
+                              }
+                            }>
+                            <span
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }>
+                               
+                            </span>
+                          </div>
+                        </RenderAny>
+                      </Visible>
+                    </ClearFix>
+                  </div>
+                </Row>
+                <Row
+                  style={Object {}}>
+                  <div
+                    style={
+                      Object {
+                        "marginLeft": "-15px",
+                        "marginRight": "-15px",
+                      }
+                    }>
+                    <Col
+                      className="poll-field"
+                      lg={12}
+                      md={6}
+                      offset={Object {}}
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="poll-field"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "0%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "50%",
+                          }
+                        }>
+                        John Doe
+                      </div>
+                    </Col>
+                    <Col
+                      className="poll-field"
+                      lg={12}
+                      md={5}
+                      offset={
+                        Object {
+                          "md": 1,
+                        }
+                      }
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="poll-field"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "8.333333333333334%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "41.66666666666667%",
+                          }
+                        }>
+                        date
+                      </div>
+                    </Col>
+                    <ClearFix
+                      lg={true}
+                      md={true}
+                      sm={true}
+                      xl={true}
+                      xs={true}>
+                      <Visible
+                        lg={true}
+                        md={true}
+                        sm={true}
+                        xl={true}
+                        xs={true}>
+                        <RenderAny>
+                          <div
+                            style={
+                              Object {
+                                "clear": "both",
+                                "display": "table",
+                              }
+                            }>
+                            <span
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }>
+                               
+                            </span>
+                          </div>
+                        </RenderAny>
+                      </Visible>
+                    </ClearFix>
+                  </div>
+                </Row>
+                <Row
+                  style={Object {}}>
+                  <div
+                    style={
+                      Object {
+                        "marginLeft": "-15px",
+                        "marginRight": "-15px",
+                      }
+                    }>
+                    <Col
+                      className="poll-field"
+                      lg={12}
+                      md={12}
+                      offset={Object {}}
+                      sm={12}
+                      style={Object {}}
+                      xl={12}
+                      xs={12}>
+                      <div
+                        className="poll-field"
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginLeft": "0%",
+                            "minHeight": "1px",
+                            "paddingLeft": "15px",
+                            "paddingRight": "15px",
+                            "width": "100%",
+                          }
+                        }>
+                        <em>
+                          No description provided
+                        </em>
+                      </div>
+                    </Col>
+                    <ClearFix
+                      lg={true}
+                      md={true}
+                      sm={true}
+                      xl={true}
+                      xs={true}>
+                      <Visible
+                        lg={true}
+                        md={true}
+                        sm={true}
+                        xl={true}
+                        xs={true}>
+                        <RenderAny>
+                          <div
+                            style={
+                              Object {
+                                "clear": "both",
+                                "display": "table",
+                              }
+                            }>
+                            <span
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }>
+                               
+                            </span>
+                          </div>
+                        </RenderAny>
+                      </Visible>
+                    </ClearFix>
+                  </div>
+                </Row>
+              </div>
+            </Poll>
+          </div>
+        </Col>
+        <ClearFix
+          lg={true}
+          md={true}
+          sm={true}
+          xl={true}
+          xs={true}>
+          <Visible
+            lg={true}
+            md={true}
+            sm={true}
+            xl={true}
+            xs={true}>
+            <RenderAny>
+              <div
+                style={
+                  Object {
+                    "clear": "both",
+                    "display": "table",
+                  }
+                }>
+                <span
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }>
+                   
+                </span>
+              </div>
+            </RenderAny>
+          </Visible>
+        </ClearFix>
+      </div>
+    </Row>
+  </div>
+</Polls>
+`;

@@ -1,0 +1,1 @@
+exports[`test renders without crashing 1`] = `"{\"props\":{\"API_URL\":\"http://localhost:8080\"},\"context\":{},\"refs\":{},\"updater\":{},\"_reactInternalInstance\":\"censored\",\"state\":null}"`;
